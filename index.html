@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shorts Pipeline</title>
+  <style>
+:root { --bg:#0b1020; --card:#141a2e; --text:#eef2ff; --muted:#a8b0c8; --gold:#f5d26e; --line:#2a3354; }
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font: 18px/1.6 system-ui, -apple-system, Segoe UI, sans-serif; }
+body { min-height:100vh; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+header { display:flex; align-items:baseline; justify-content:space-between; gap:16px; border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:32px; }
+.brand { font-weight:700; letter-spacing:.04em; color:var(--gold); text-decoration:none; font-size:20px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:18px; font-size:15px; }
+nav a:hover, nav a.current { color:var(--gold); }
+h1 { font-size: 34px; line-height:1.2; margin: 0 0 16px; }
+h2 { font-size: 22px; margin: 32px 0 10px; }
+p, li { color: var(--text); }
+.muted, .footer { color: var(--muted); }
+.lead { font-size: 20px; color:#d7dcf0; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px 26px; }
+ul { padding-left: 1.2em; }
+.footer { margin-top:48px; font-size:14px; border-top:1px solid var(--line); padding-top:18px; }
+a { color: var(--gold); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">Shorts Pipeline</a>
+      <nav><a href="index.html" class="current">Home</a><a href="terms.html" class="">Terms</a><a href="privacy.html" class="">Privacy</a></nav>
+    </header>
+    
+    <h1>Shorts Pipeline</h1>
+    <p class="lead">A personal desktop tool that uploads my own short videos to my TikTok and YouTube accounts.</p>
+    <div class="card">
+      <p>Shorts Pipeline runs on my computer. It helps me prepare short clips from streams I work with and send those finished videos to the TikTok and YouTube accounts I control.</p>
+      <p>It is not a public web service and it is not offered as a commercial platform. These pages exist so TikTok and YouTube can review the app: what it is, how it is used, and how data is handled.</p>
+      <p>Please read the <a href="terms.html">Terms of Service</a> and the <a href="privacy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <p class="footer">Shorts Pipeline is a personal desktop tool. Contact: <a href="https://github.com/petraballas/shorts-pipeline">github.com/petraballas/shorts-pipeline</a></p>
+  </div>
+</body>
+</html>
